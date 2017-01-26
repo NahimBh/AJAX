@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scriptListing.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+      <nav class="navbar navbar-default">
+		<div class="logo">
+            <a href="index.html"><img src="img/_LogoCine.png" alt="logo" style="width:150%;"/></a>
+          </div>
+		
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+        </button>
+		
+		<div class="collapse navbar-collapse" id="navbar">
+		<ul class="nav navbar-nav">
+			<li><a href="#" class="byCinema">Au cinéma</a></li>
+			<li><a href="#" class="byPopulaire">Plus populaires</a></li>
+		</ul>
+		</div>
+	   </nav>
+      <div id="searchbar">
+                <input type="text" id="search" placeholder="Rechercher un film..."/>
+        </div>
+      
+      <div class="container">
+          
+          <div class="genre">
+            
+            <a class="byAction" href="#">Action</a>
+            <a class="byAnimation" href="#">Animation</a>
+            <a class="byAventure" href="#">Aventure</a>
+            <a class="byComedie" href="#">Comédie</a>
+            <a class="byDrame" href="#">Drame</a>
+            <a class="byFantastique" href="#">Fantastique</a>
+            <a class="byRomance" href="#">Romance</a>
+            <a class="byWestern" href="#">Western</a>
+              
+              </div>
+
+            <div id="listing">
+            </div>
+          
+      </div>      
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+    background: #E0E3DA;
+    color: #000;
+}
+
+.movie-details {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.details-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+.movie-synopsis {
+    color: #566270;
+}
